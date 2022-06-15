@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+
+
+
+header h1{
+   
+    background-image: linear-gradient(to top, blue, white);
+    
+    text-align: center;
+    line-height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;
+
+}
+div{
+    
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: blue;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    margin-bottom: 0px;
+   
+}
+div.sala{
+    
+    
+   
+    background-size: 78%;
+    
+}
+.item1{
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 5px;
+    border-collapse: collapse;
+    
+  
+    
+
+}
+.item1:hover{
+    background-color: black;
+    border: 2px solid black;
+   
+}
+main{
+ 
+}
+main section{
+    height: 150px;
+   
+}
+section.item2{
+    background-color: black;
+    background-image: url(imagens/images.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    margin-top: 100px;
+    height: 301px;
+    
+    
+}
+.item2 h1{
+    margin-left: 18px;
+}
+
+.item2 input{
+
+    margin: 90px;
+    margin-top: 0.5px;
+
+}
+
+div.texto1{
+    width: 200px;
+    background-color: white;
+    height: 240px;
+    line-height: 30px;
+    background-color: rgb(255, 179, 179);
+    border: 1px solid purple;
+    margin-left: 10px;
+    
+}
+section.item3{
+    background-color: rgb(255, 255, 255);
+ 
+    height: 300px;
+   
+    
+}
+section.item4{
+    background-color: black;
+    background-image: url(imagens/images.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    
+
+}
+section.item5{
+    background-color: rgb(255, 255, 255);
+   
+    height: 300px;
+   
+
+}
+
+section.item6{
+    
+        background-color: black;
+        background-image: url(imagens/images.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+
+}
+
