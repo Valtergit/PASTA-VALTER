@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tipo.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Dev's</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div>
+
+    <form action="teste1">
+
+    <fieldset class="grupo">
+        
+                <div class="campo">
+                    <label for="name">👨‍💼👩‍💼Nome</label>
+                    <input type="text" name="nome" value="Escreva seu nome" id="nome">
+                </div>
+
+                <div class="campo">
+                    <label for="subname" > Sobrenome </label>
+                    <input type="text" name="sobrenome" value="Escreva o seu sobrenome" id="sobrenome" required>
+                </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email">📧 Email</label>
+        <input type="email" name="email" id="email" required>
+
+    </div>
+
+    <div class="campo">
+       <label for="teste">Qual dos doces a seguir você prefere?</label>
+
+       <label for="">
+           <input type="radio" name="doces" value="brigadeiro">brigadeiro
+       </label>
+
+       <label for="">
+          <input type="radio" name="doces" value="beijinho">Beijinho
+       </label>
+
+       <label for="">
+           <input type="radio" name="doces" value="Bolo de Pote">Bolo De Pote
+       </label>
+
+    </div>
+
+    <div class="campo">
+
+        <label for="pais">De qual pais voce é?</label>
+        <select name="pais" id="lugar">
+            <option selected disabled value="">Selecione</option>
+            <option value="BR">Brazil</option>
+            <option value="FR">França</option>
+            <option value="EUA">Estados Unidos</option>
+            <option value="AL">Alemanha</option>
+            <option value="RU">Rússia</option>
+            
+        </select>
+    </div>
+
+    <fieldset class="grupo">
+        <div id="check">
+
+            <label for="tecnologias">Selecione das tecnologias a seguir as que você utiliza:</label><br><br>
+            <input type="checkbox" name="tec1" id="tec1">
+            <label for="">HTML</label>
+
+            <input type="checkbox" name="tec2" id="tec2">
+            <label for="">CSS</label>
+
+            <input type="checkbox" name="tec3" id="tec3">
+            <label for="">JAVA SCRIPT</label>
+
+            <input type="checkbox" name="tec4" id="tec4">
+            <label for="">NODE.JS</label>
+
+            <input type="checkbox" name="tec5" id="tec5">
+            <label for="">MYSQL</label>
+
+            <input type="checkbox" name="tec6" id="tec6">
+            <label for="">BOOTSTRAP</label>
+        </div><br>
+    </fieldset>
+
+    <div class="campo">
+        <label for="textarea">Conte-nos mais sobre você:</label>
+        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+    </div>
+    <button type="submit" class="botao">concluído</button>
+
+
+
+
+    </form>
+    
+</body>
+</html>
