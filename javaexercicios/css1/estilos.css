@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(94, 156, 236);
+    font: normal 15pt arial;
+
+}
+
+header{
+    text-align: center;
+
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 1px;
+    width: 700px;
+    margin: auto;
+
+}
+#tela img{
+    height: 300px;
+
+}
+footer{
+    text-align: center;
+    color: white;
+
+}
+
