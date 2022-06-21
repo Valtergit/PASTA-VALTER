@@ -8,18 +8,24 @@ body{
 
 header{
     text-align: center;
+    color: white;
 
 }
 section{
-    background: white;
+    background:white;
     border-radius: 10px;
     padding: 1px;
     width: 700px;
     margin: auto;
-
+  
 }
-#tela img{
+div{
+    text-align: center;
+}
+#tela2 img{
     height: 300px;
+    margin-top: 0px;
+    padding: 0px;
 
 }
 footer{
