@@ -8,20 +8,27 @@ body{
 
 header{
     text-align: center;
+    color: white;
 
 }
 section{
-    background: white;
+    background:white;
     border-radius: 10px;
     padding: 0px;
     width: 700px;
     margin: auto;
-    margin-bottom: 0px;
 
+=======
+  
 }
-#tela img{
-    height: 250px;
-    margin-bottom: 0px;
+div{
+    text-align: center;
+}
+#tela2 img{
+    height: 300px;
+    margin-top: 0px;
+    padding: 0px;
+>>>>>>> 59469aa513a83470331a52b3718684cddc129d66
 
 }
 footer{
