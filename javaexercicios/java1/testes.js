@@ -2,7 +2,7 @@ function carregar(){
     var tela = window.document.getElementById('tela1')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-    var hora = data.getHours() //data.gethour(horário de computador)
+    var hora = 18 //data.gethour(horário de computador)
     tela.innerHTML = (`Agora são ${hora} horas`)
 
     if(hora >= 0 && hora < 12){

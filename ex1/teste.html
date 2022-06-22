@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="idades()">
+    <header>
+        Verificador de idade
+    </header>
+    
+     
+     <section>
+
+        <div id="name">
+            <label for="name" id="name">Qual o seu nome?</label>
+            <input type="text" value="Digite seu nome"><br>
+            <label for="naximento" id="nasciment">Ano de Nascimento</label>
+            <input type="number" name="data nascimento"  id="data"><br>
+<p>sexo:
+    
+                
+                 <input type="radio" name="masculino" id="masc">
+                 <label for="name">Masculino</label>
+                 <input type="radio" name="masculino" id="fem">
+                 <label for="name">Feminino</label>
+</p>
+
+             <input type="button" value="verificar" onclick="verificar()">
+        </div>
+
+        <div id="res">
+            <p>Preencha Os Dados</p>
+
+        </div>
+     </section>
+     <footer>
+        <p>&copy ValteGit</p>
+     </footer>
+
+     <script src="idade.js"></script>
+</body>
+</html>
